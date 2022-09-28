@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.section{
+    width: 1440px;
+    height: 50rem;
+}
+nav{
+    position:absolute;
+    left: 150px;
+    top: 130px;
+    width: 80%;
+    height: 88px;
+    background-color: #ffb342;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content:space-between;
+
+}
+nav ul{
+    margin-left: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    list-style: none;
+    width: 50%;
+    height: 88px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#222222; 
+}
+nav button{
+    margin-right: 10px;
+    border: 0px;
+    width: 298px;
+    height: 68px;
+    background-color: #1c2752;
+    color: white;
+}
+.nav button:hover{
+    box-shadow: 5px 5px 5px 0 #0000002c;
+    background-color: #1c2448;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height:120px;
+    justify-content: space-between;
+    align-items: center;
+}
+.image{
+    width: 200px;
+    margin-left: 150px;
+}
+.adress{
+    justify-content: space-between;
+    display: flex;
+    width: 40%;
+    height: 120px;
+}
+/* .adress div{
+    display: flex;
+    width: 50%;
+    height: 120px;
+    border: 2px solid darkblue;
+
+    width: 50px;
+    height: 120px;
+    border: 2px solid darkblue;
+} */
+.box{
+    justify-content: space-between;
+    width: 50%;
+    height: 120px;
+}
+.radius{ 
+    justify-content: space-between;
+    position: absolute;
+    top: 25px;
+    padding: 12px;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffb342;
+}
+.text{
+    margin-left:30px;
+}
+.boshjoy{
+    width: 100%;
+    height: 25px;
+    background-color: #f5f5f5;
+}
+.about{
+    width: 150%;
+    height: 813px;
+    /* background-color: #1c2752; */
+}
+.text-1{
+    width: 662px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 450px;
+    left: 150px;
+    background-color: rgb(rgb(170, 255, 0), green, blue)
+}
+.text-1 img{
+    width: 20px;
+    background-size: cover;
+}
+.text-1 p{
+    text-align:start;
+    margin-left: 20px;
+    color: white;
+} 
+.ptext{
+    font-size:40px;
+    width: 600px;
+    color: white;
+    position: absolute;
+    top: 500px;
+    left: 150px;
+}
+.about button{
+    position: absolute;
+    top: 650px;
+    left: 150px;
+    border:0px;
+    width: 227px;
+    height: 68px;background-color: #ffb342;
+    color: white;
+}
+.about button:hover{
+    box-shadow: 5px 5px 5px 0 #0000002c;
+    background-color: #1c2448;
+}
+
+.about .rasm-3{
+    width: 100%;
+}
